@@ -13,6 +13,11 @@ int main()
     // Nhap so luong phan tu cua mang
     printf("Nhap so phan tu trong mang: ");
     scanf("%d", &n);
+
+    if (n <= 0) {
+        printf("So luong phan tu khong hop le!\n");
+        return 1;
+    }
     printf("\n");
 
     // Cap phat dong bo nho cho mang
